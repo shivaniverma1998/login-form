@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            height: 800px;
+            /* flex-wrap:wrap; */
+            justify-content: start;
+            align-items: start; 
+            align-content: center;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid rgb(60, 99, 207);
+            margin: 2px;
+            padding: 2px;
+        }
+        #box1{
+            background-color: rgb(12, 71, 71);
+            /* order: 500; */
+            /* flex-shrink: 4; */
+            flex-grow: 5;
+            align-self: start;
+        }
+        #box2{
+            background-color: rgba(221, 80, 202, 0.568);
+            /* flex-grow: 1; */
+            align-items: center;
+        }
+        #box3{
+            background-color: orange;
+            /* flex-grow: 1; */
+        }
+        #box4{
+            background-color: brown;
+            /* order: -1; */
+            /* flex-grow: 1; */
+            /* flex-basis: 400px; */
+        }
+        #box5{
+            background-color: blue;
+            /* flex-grow: 1; */
+            align-self: end;
+        }
+        #box6{
+            background-color: rgb(150, 211, 211);
+            /* order: 500; */
+            /* flex-shrink: 4; */
+            /* flex-grow: 1; */
+            align-self: end;
+        }
+        #box7{
+            background-color: blue;
+            /* flex-grow: 1; */
+            align-self: end;
+        }
+        #box8{
+            background-color: orange;
+            /* flex-grow: 1; */
+            align-self: end;
+        }
+        #box9{
+            background-color: brown;
+            /* order: -1; */
+            /* flex-grow: 1; */
+            /* flex-basis: 400px; */
+            align-self: center;
+            
+        }
+        #box10{
+            background-color: blue;
+            /* flex-grow: 1; */
+            align-self: center;
+        }
+        #box11{
+            background-color: orange;
+            flex-grow: 4;
+            align-self: center;
+        }
+        #box12{
+            background-color: rgb(32, 126, 202);
+            /* order: -1; */
+            /* flex-grow: 1; */
+            /* flex-basis: 400px; */
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+        <div class="box" id="box3">Box 3</div>
+        <div class="box" id="box4">Box 4</div>
+        <div class="box" id="box5">Box 5</div>
+        <div class="box" id="box6">Box 6</div>
+        <div class="box" id="box7">Box 7</div>
+        <div class="box" id="box8">Box 8</div>
+        <div class="box" id="box9">Box 9</div>
+        <div class="box" id="box10">Box 10</div>
+        <div class="box" id="box11">Box 11</div>
+        <div class="box" id="box12">Box 12</div>
+    </div>
+</body>
+</html>
